@@ -1,0 +1,87 @@
+# 模仿 PCLSteamPage 的 GitHub Action：每天自动生成 ModPage.xaml 并推送到服务器。
+# 需要配置仓库 Secrets: SSH_PASSWORD / SERVER_USER / SERVER_HOST / SERVER_PORT(可省) / SERVER_PATH。
+# 注：模组页为 CDN 模式(图片直接来自 Modrinth CDN)，故只部署 XAML 与版本号，不上传图片目录。
+name: ModPage
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install requests pillow
+
+      - name: 运行脚本生成 XAML
+        run: python main.py
+
+      - name: 检查生成的文件
+        run: |
+          if [ -f "ModPage.xaml" ]; then
+            echo "文件已生成"
+            ls -la ModPage.xaml
+          else
+            echo "文件未生成，请检查脚本"
+            exit 1
+          fi
+
+      - name: 记录当天已推模组并写回仓库
+        run: |
+          git config user.name "llsgllsg"
+          git config user.email "151439431+llsgllsg@users.noreply.github.com"
+          git config http.version HTTP/1.1
+          git add history.json
+          if git diff --cached --quiet; then
+            echo "history.json 无变化，跳过提交"
+          else
+            git commit -m "update history ($(date -u +%F))"
+            git push
+          fi
+
+      - name: 安装 sshpass
+        run: sudo apt-get update && sudo apt-get install -y sshpass
+
+      - name: 确保远程目录存在
+        run: |
+          sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no -p ${{ secrets.SERVER_PORT || 22 }} \
+            ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
+            "mkdir -p ${{ secrets.SERVER_PATH }}"
+
+      - name: 上传 XAML 文件
+        run: |
+          for i in 1 2; do
+            echo "尝试上传 XAML (第 $i 次)"
+            if sshpass -p '${{ secrets.SSH_PASSWORD }}' scp -o StrictHostKeyChecking=no -P ${{ secrets.SERVER_PORT || 22 }} \
+                ModPage.xaml \
+                ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:${{ secrets.SERVER_PATH }}/; then
+              echo "XAML 上传成功"
+              exit 0
+            else
+              echo "上传失败，等待重试..."
+              sleep 5
+            fi
+          done
+          echo "上传失败，放弃"
+          exit 1
+
+      - name: 在远程创建/覆盖版本号文件 ModPage.xaml.ini
+        run: |
+          TIMESTAMP=$(date -u +%s)
+          sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no -p ${{ secrets.SERVER_PORT || 22 }} \
+            ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
+            "echo $TIMESTAMP > ${{ secrets.SERVER_PATH }}/ModPage.xaml.ini"
+          echo "版本号已更新: $TIMESTAMP"
