@@ -1,4 +1,4 @@
-name: Steam
+name: ModPage
 
 on:
   schedule:
@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: 安装依赖
-        run: pip install requests
+        run: pip install requests pillow
 
       - name: 运行脚本生成 XAML
         run: python main.py
@@ -36,7 +36,7 @@ jobs:
             exit 1
           fi
 
-      - name: 记录当天已推游戏并写回仓库
+      - name: 记录当天已推模组并写回仓库
         run: |
           git config user.name "llsgllsg"
           git config user.email "151439431+llsgllsg@users.noreply.github.com"
@@ -60,14 +60,14 @@ jobs:
 
       - name: 清理远程旧图片缓存（只保留当天这批）
         run: |
-          # 只删 images/ 目录下第一层的 .jpg 封面：不递归、不删目录、不碰其他文件。
+          # 只删 images/ 目录下第一层的 .png 封面：不递归、不删目录、不碰其他文件。
           # 路径为空时直接跳过，避免误删服务器上的其他目录。
           if [ -z "${{ secrets.SERVER_PATH }}" ]; then
             echo "SERVER_PATH 为空，跳过清理"
           else
             sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no -p ${{ secrets.SERVER_PORT || 22 }} \
               ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
-              "mkdir -p ${{ secrets.SERVER_PATH }}/images && find ${{ secrets.SERVER_PATH }}/images -maxdepth 1 -type f -name '*.jpg' -delete"
+              "mkdir -p ${{ secrets.SERVER_PATH }}/images && find ${{ secrets.SERVER_PATH }}/images -maxdepth 1 -type f -name '*.png' -delete"
             echo "远程旧图片已清理"
           fi
 
