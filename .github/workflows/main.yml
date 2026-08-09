@@ -68,8 +68,6 @@ jobs:
 
       - name: 清理远程旧图片缓存（只保留当天这批）
         run: |
-          # 只删 images/ 目录下第一层的 .png 封面：不递归、不删目录、不碰其他文件。
-          # 路径为空时直接跳过，避免误删服务器上的其他目录。
           if [ -z "${{ secrets.SERVER_PATH }}" ]; then
             echo "SERVER_PATH 为空，跳过清理"
           else

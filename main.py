@@ -1,24 +1,8 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-main.py — 用 Modrinth 模组数据生成 PCL2 可订阅的 ModPage.xaml。
-
-用法:
-    python main.py                 # 生成 ModPage.xaml(默认 12 个模组, 2 列, 图片下载到 images/ 自托管)
-    python main.py --limit 16      # 每页 16 个
-    python main.py --columns 2     # 列数
-    python main.py --use-cdn       # 图片直连 Modrinth CDN(调试用)
-    python main.py --dry-run       # 只打印卡片数据, 不写文件/不写历史
-
-数据来源: Modrinth API v2 (https://api.modrinth.com) — 免费、无需 API Key。
-简介: 默认经 MCIM 镜像(mod.mcimirror.top)换成中文, 失败回退英文。
-"""
-
 from __future__ import annotations
 
 import sys
 
-# Windows 控制台默认可能不是 UTF-8, 强制 UTF-8 输出避免中文乱码
 if hasattr(sys.stdout, "reconfigure"):
     try:
         sys.stdout.reconfigure(encoding="utf-8")
@@ -38,7 +22,6 @@ TEMPLATE_DIR = "templates"
 
 
 def escape_xaml(text) -> str:
-    """XAML 文本转义, 防止标题里的 & < > 等破坏结构。"""
     if text is None:
         return ""
     text = str(text)
@@ -51,7 +34,6 @@ def escape_xaml(text) -> str:
 
 
 def replaces(template: str, data: dict, no_escape_keys=None) -> str:
-    """把模板里的 {key} 替换成 data 的值; no_escape_keys 里的 key 不做 XAML 转义。"""
     if no_escape_keys is None:
         no_escape_keys = []
     for key, value in data.items():
@@ -63,7 +45,6 @@ def replaces(template: str, data: dict, no_escape_keys=None) -> str:
 
 
 def fmt_count(n) -> str:
-    """把 1234567 格式化成 1.2M / 123K。"""
     n = n or 0
     if n >= 1_000_000:
         return f"{n / 1_000_000:.1f}M"
@@ -73,7 +54,6 @@ def fmt_count(n) -> str:
 
 
 def build_stats_xaml(mod: dict) -> str:
-    """统计行: 下载 X · 关注 Y · MC 版本。"""
     d = fmt_count(mod["downloads"])
     f = fmt_count(mod["follows"])
     v = mod.get("version") or ""
@@ -86,7 +66,6 @@ def build_stats_xaml(mod: dict) -> str:
 
 
 def build_tags_xaml(mod: dict) -> str:
-    """分类标签行, 如: 冒险 · 生物 · 科技。"""
     cats = mod.get("categories") or []
     if not cats:
         return ""
@@ -99,7 +78,6 @@ def build_tags_xaml(mod: dict) -> str:
 
 
 def build_desc_xaml(mod: dict) -> str:
-    """一行小简介, 过长截断。"""
     desc = (mod.get("description") or "").strip().replace("\n", " ")
     if not desc:
         return ""
@@ -114,8 +92,6 @@ def build_desc_xaml(mod: dict) -> str:
 
 
 def build_buttons_xaml(mod: dict) -> str:
-    """按钮行: "下载"(下载到当前版本 mods 文件夹) + "查看详情"(打开 Modrinth 页)。
-    拿不到下载直链时只显示"查看详情"。"""
     parts = []
     dl = mod.get("download_url") or ""
     if dl:
@@ -140,12 +116,11 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="生成 PCL2 模组推荐主页 ModPage.xaml (Modrinth API)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog=__doc__.split("数据来源:")[0],
     )
     p.add_argument("--limit", type=int, default=None, help=f"每页模组数量 (默认 {modrinth_api.LIMIT})")
     p.add_argument("--columns", type=int, default=COLUMNS, help=f"列数 (默认 {COLUMNS})")
     p.add_argument("--use-cdn", action="store_true",
-                   help="图片直接引用 Modrinth CDN webp(调试用; 默认下载到 images/ 自托管)")
+                   help="图片直接引用 Modrinth CDN webp(默认下载到 images/ 自托管)")
     p.add_argument("--dry-run", action="store_true", help="只打印卡片数据, 不生成文件/不写历史")
     return p.parse_args()
 
@@ -222,7 +197,6 @@ def main() -> int:
     with open("ModPage.xaml", "w", encoding="utf-8") as f:
         f.write(final_xaml)
 
-    # 版本时间戳文件(PCL2 订阅时检测页面是否更新)
     with open("ModPage.xaml.ini", "w", encoding="utf-8") as f:
         f.write(str(int(time.time())))
 
