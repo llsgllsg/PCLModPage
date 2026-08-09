@@ -73,10 +73,11 @@ def fmt_count(n) -> str:
 
 
 def build_stats_xaml(mod: dict) -> str:
-    """统计行: 下载 X · 关注 Y。"""
+    """统计行: 下载 X · 关注 Y · MC 版本。"""
     d = fmt_count(mod["downloads"])
     f = fmt_count(mod["follows"])
-    text = escape_xaml(f"下载 {d} · 关注 {f}")
+    v = mod.get("version") or ""
+    text = escape_xaml(f"下载 {d} · 关注 {f}" + (f" · MC {v}" if v else ""))
     return (
         f'<TextBlock Margin="0,6,0,0" HorizontalAlignment="Center" TextAlignment="Center" '
         f'VerticalAlignment="Center" FontSize="14" FontWeight="Bold" '
@@ -161,6 +162,7 @@ def main() -> int:
             print(f"[{i}] {m['title']}  (mod/{m['slug']})")
             print(f"     作者: {m['author']}  下载: {fmt_count(m['downloads'])}  关注: {fmt_count(m['follows'])}")
             print(f"     分类: {' · '.join(m['categories']) or '-'}")
+            print(f"     版本: MC {m.get('version') or '-'}")
             print(f"     图片: {m['img']}")
             print(f"     下载: {m.get('download_url') or '(无)'}")
             print(f"     链接: {m['url']}")

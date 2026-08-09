@@ -354,6 +354,23 @@ def _cn_categories(m: dict) -> list[str]:
     return [CATEGORY_CN[c] for c in cats[:3]]
 
 
+def _latest_version(m: dict) -> str:
+    """从支持的 MC 版本里挑最高的稳定版(如 1.21.1), 跳过快照/特殊版本。"""
+    best_key, best = None, ""
+    for v in (m.get("versions") or []):
+        parts = str(v).split(".")
+        if not (2 <= len(parts) <= 3):
+            continue
+        try:
+            nums = [int(p) for p in parts]
+        except ValueError:
+            continue
+        key = tuple(nums + [0] * (3 - len(nums)))
+        if best_key is None or key > best_key:
+            best_key, best = key, v
+    return best
+
+
 def _pick_image(m: dict) -> str:
     """选图片: 优先横版 featured_gallery(更清晰, 类似 Steam 横幅), 没有则用方形图标。
     两者都是 Modrinth CDN 的 webp 地址, PCL2 的 MyImage 原生支持。"""
@@ -525,6 +542,7 @@ def get_mods(limit: int = LIMIT, use_cdn: bool = False, pool: list[dict] | None 
             "downloads": m.get("downloads", 0),
             "follows": m.get("follows", 0),
             "categories": _cn_categories(m),
+            "version": _latest_version(m),
             "description": (m.get("description") or "").strip(),
             "download_url": m.get("download_url") or "",
             "url": f"https://modrinth.com/mod/{m['slug']}",
