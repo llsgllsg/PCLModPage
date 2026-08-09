@@ -23,6 +23,14 @@ jobs:
       - name: 安装依赖
         run: pip install requests pillow
 
+      - name: 缓存模组图标(跨运行复用, 避免重复下载)
+        uses: actions/cache@v4
+        with:
+          path: cache/icons
+          key: mod-icons-${{ runner.os }}
+          restore-keys: |
+            mod-icons-
+
       - name: 运行脚本生成 XAML
         run: python main.py
 

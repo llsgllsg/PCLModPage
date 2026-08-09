@@ -28,6 +28,7 @@ import io
 import json
 import os
 import random
+import shutil
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlencode
@@ -61,6 +62,9 @@ TRANSLATION_CACHE_FILE = os.path.join(CACHE_DIR, "translations.json")
 
 # 下载按钮: 从 Modrinth 拿每个模组最新版本的 jar 直链(供 PCL2 "下载文件" 事件下载到当前版本 mods 文件夹)
 DOWNLOAD_CACHE_FILE = os.path.join(CACHE_DIR, "downloads.json")
+
+# 持久图片缓存: 下载过的图标转 png 后留一份在这里, 同一个模组以后再出现直接复用, 不重复下载
+ICON_CACHE_DIR = os.path.join(CACHE_DIR, "icons")
 
 # ---- 筛选配置 ----
 LIMIT = 12               # 每页模组数量
@@ -285,29 +289,43 @@ def _download_png(slug: str, url: str, path: str) -> None:
 
 
 def _download_images(mods: list[dict]) -> set:
-    """把选中模组的图标转 png 存到 images/{slug}.png, 清理不再引用的旧图。
-    返回成功下载的 slug 集合; 已存在的直接复用。"""
+    """把选中模组的图标转 png 放到 images/{slug}.png(部署用), 并写入持久缓存 cache/icons/。
+
+    命中顺序: 部署目录已有 → 持久缓存里有(复制过来, 不再下载) → 才真正下载。
+    images/ 只保留当前批次; 持久缓存不清理, 同一个模组以后再出现直接复用。
+    返回成功准备好图片的 slug 集合。"""
     if not mods:
         return set()
     os.makedirs(IMAGE_DIR, exist_ok=True)
+    os.makedirs(ICON_CACHE_DIR, exist_ok=True)
     keep = {m["slug"] for m in mods}
     ok = set()
 
-    # 只对还没缓存过的模组发起下载
     todo = []
     for m in mods:
+        slug = m["slug"]
         url = _pick_image(m)
         if not url:
             continue
-        path = os.path.join(IMAGE_DIR, f"{m['slug']}.png")
+        path = os.path.join(IMAGE_DIR, f"{slug}.png")
+        cache_path = os.path.join(ICON_CACHE_DIR, f"{slug}.png")
         if os.path.exists(path) and os.path.getsize(path) > 0:
-            ok.add(m["slug"])          # 已缓存, 复用
+            ok.add(slug)                      # 部署目录已有, 直接复用
             continue
-        todo.append((m["slug"], url, path))
+        if os.path.exists(cache_path) and os.path.getsize(cache_path) > 0:
+            shutil.copyfile(cache_path, path)  # 持久缓存命中, 不用重新下载
+            ok.add(slug)
+            continue
+        todo.append((slug, url, path, cache_path))
 
-    # 并发下载, 大幅缩短等待(串行 12 张 → 并发约 2 批)
+    def _download_to_cache(slug, url, path, cache_path):
+        # 先下载到持久缓存, 再复制到部署目录
+        _download_png(slug, url, cache_path)
+        shutil.copyfile(cache_path, path)
+
+    # 并发下载
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
-        futures = {ex.submit(_download_png, slug, url, path): slug for slug, url, path in todo}
+        futures = {ex.submit(_download_to_cache, *t): t[0] for t in todo}
         for fut in concurrent.futures.as_completed(futures):
             slug = futures[fut]
             try:
@@ -317,6 +335,7 @@ def _download_images(mods: list[dict]) -> set:
             except Exception as e:
                 print(f"[警告] 下载图标失败 {slug}: {e}")
 
+    # 部署目录只保留当前批次(持久缓存不动)
     for name in os.listdir(IMAGE_DIR):
         if not name.endswith(".png"):
             continue
