@@ -1,8 +1,4 @@
-# 模仿 PCLSteamPage 的 GitHub Action：每天自动生成 ModPage.xaml 并推送到服务器。
-# 需要配置仓库 Secrets: SSH_PASSWORD / SERVER_USER / SERVER_HOST / SERVER_PORT(可省) / SERVER_PATH。
-# 图片自托管: 下载到 images/ 部署到 $SERVER_PATH/images/, 与 Steam 页的 .jpg 共存
-# (模组图是 .png, 清理时只删 .png 不碰 .jpg, 避免互相干扰)。
-name: ModPage
+name: Steam
 
 on:
   schedule:
@@ -25,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: 安装依赖
-        run: pip install requests pillow
+        run: pip install requests
 
       - name: 运行脚本生成 XAML
         run: python main.py
@@ -40,7 +36,7 @@ jobs:
             exit 1
           fi
 
-      - name: 记录当天已推模组并写回仓库
+      - name: 记录当天已推游戏并写回仓库
         run: |
           git config user.name "llsgllsg"
           git config user.email "151439431+llsgllsg@users.noreply.github.com"
@@ -62,25 +58,27 @@ jobs:
             ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
             "mkdir -p ${{ secrets.SERVER_PATH }}"
 
-      - name: 清理远程旧模组图片（只删 images/ 下第一层的 .png, 不影响 Steam 页的 .jpg）
+      - name: 清理远程旧图片缓存（只保留当天这批）
         run: |
+          # 只删 images/ 目录下第一层的 .jpg 封面：不递归、不删目录、不碰其他文件。
+          # 路径为空时直接跳过，避免误删服务器上的其他目录。
           if [ -z "${{ secrets.SERVER_PATH }}" ]; then
             echo "SERVER_PATH 为空，跳过清理"
           else
             sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no -p ${{ secrets.SERVER_PORT || 22 }} \
               ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
-              "mkdir -p ${{ secrets.SERVER_PATH }}/images && find ${{ secrets.SERVER_PATH }}/images -maxdepth 1 -type f -name '*.png' -delete"
-            echo "远程旧模组图片已清理"
+              "mkdir -p ${{ secrets.SERVER_PATH }}/images && find ${{ secrets.SERVER_PATH }}/images -maxdepth 1 -type f -name '*.jpg' -delete"
+            echo "远程旧图片已清理"
           fi
 
-      - name: 上传 XAML 与图片
+      - name: 上传 XAML 文件
         run: |
           for i in 1 2; do
-            echo "尝试上传 XAML 与图片 (第 $i 次)"
+            echo "尝试上传 XAML (第 $i 次)"
             if sshpass -p '${{ secrets.SSH_PASSWORD }}' scp -r -o StrictHostKeyChecking=no -P ${{ secrets.SERVER_PORT || 22 }} \
                 ModPage.xaml images \
                 ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:${{ secrets.SERVER_PATH }}/; then
-              echo "XAML 与图片上传成功"
+              echo "XAML 上传成功"
               exit 0
             else
               echo "上传失败，等待重试..."
