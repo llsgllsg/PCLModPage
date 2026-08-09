@@ -50,9 +50,9 @@ HISTORY_FILE = "history.json"
 HISTORY_KEEP_DAYS = 14
 
 IMAGE_DIR = "images"
-# 图片引用前缀, 仅 --local-images 自托管模式使用。
-# 空 = 自动用本机绝对路径(file:///…/images); 部署到服务器后填你的域名, 例如 "https://g-fish.dpdns.org/download/mods"
-IMAGE_BASE_URL = ""
+# 图片部署到服务器 $SERVER_PATH/images/, 与 Steam 页的 .jpg 封面共存不冲突(模组图是 .png)。
+# 想直连 Modrinth CDN 而不自托管图片时, 用 main.py 的 --use-cdn。
+IMAGE_BASE_URL = "https://g-fish.dpdns.org/download/images"
 
 # 中文简介: 用 MCIM 镜像(mod.mcimirror.top)获取模组简介的 GPT 中文翻译, 失败自动回退英文
 USE_TRANSLATE = True
@@ -441,13 +441,12 @@ def _fetch_download_urls(mods: list[dict]) -> None:
 
 # ============================ 主入口 ============================
 
-def get_mods(limit: int = LIMIT, use_cdn: bool = True, pool: list[dict] | None = None,
+def get_mods(limit: int = LIMIT, use_cdn: bool = False, pool: list[dict] | None = None,
              record_history: bool = True) -> list[dict]:
     """返回当天推荐模组卡片数据(已去重)。
 
-    use_cdn=True(默认): 图片直接引用 Modrinth CDN 的 webp 地址,
-        PCL2 的 MyImage 原生支持 webp + 网络图片自动缓存, 本地订阅即可显示。
-    use_cdn=False: 下载图片转 png 到 images/ 并引用 IMAGE_BASE_URL(自托管用)。
+    use_cdn=False(默认): 下载图片转 png 到 images/, XAML 引用 IMAGE_BASE_URL(自托管, 镜像 Steam 页)。
+    use_cdn=True: 图片直接引用 Modrinth CDN 的 webp 地址(调试用)。
     简介: 默认通过 MCIM 镜像把英文简介替换成中文, 失败自动回退英文。
     pool 可传入预取的候选池(测试用), 为 None 时读缓存/抓取。
     record_history=False 时不写历史(预览用)。

@@ -4,10 +4,10 @@
 main.py — 用 Modrinth 模组数据生成 PCL2 可订阅的 ModPage.xaml。
 
 用法:
-    python main.py                 # 生成 ModPage.xaml(默认 12 个模组, 2 列, 图片走 Modrinth CDN)
+    python main.py                 # 生成 ModPage.xaml(默认 12 个模组, 2 列, 图片下载到 images/ 自托管)
     python main.py --limit 16      # 每页 16 个
     python main.py --columns 2     # 列数
-    python main.py --local-images  # 图片下载到本地转 png 并引用本地路径(自托管用)
+    python main.py --use-cdn       # 图片直连 Modrinth CDN(调试用)
     python main.py --dry-run       # 只打印卡片数据, 不写文件/不写历史
 
 数据来源: Modrinth API v2 (https://api.modrinth.com) — 免费、无需 API Key。
@@ -143,8 +143,8 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument("--limit", type=int, default=None, help=f"每页模组数量 (默认 {modrinth_api.LIMIT})")
     p.add_argument("--columns", type=int, default=COLUMNS, help=f"列数 (默认 {COLUMNS})")
-    p.add_argument("--local-images", action="store_true",
-                   help="图片下载到本地转 png 并引用本地路径(自托管用; 默认直接用 Modrinth CDN)")
+    p.add_argument("--use-cdn", action="store_true",
+                   help="图片直接引用 Modrinth CDN webp(调试用; 默认下载到 images/ 自托管)")
     p.add_argument("--dry-run", action="store_true", help="只打印卡片数据, 不生成文件/不写历史")
     return p.parse_args()
 
@@ -153,7 +153,7 @@ def main() -> int:
     args = parse_args()
     limit = args.limit or modrinth_api.LIMIT
 
-    mods = modrinth_api.get_mods(limit=limit, use_cdn=not args.local_images,
+    mods = modrinth_api.get_mods(limit=limit, use_cdn=args.use_cdn,
                                  record_history=not args.dry_run)
 
     if args.dry_run:

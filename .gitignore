@@ -3,6 +3,5 @@
 test/
 __pycache__/
 cache/
-images/
 ModPage.xaml
 ModPage.xaml.ini

@@ -1,6 +1,7 @@
 # 模仿 PCLSteamPage 的 GitHub Action：每天自动生成 ModPage.xaml 并推送到服务器。
 # 需要配置仓库 Secrets: SSH_PASSWORD / SERVER_USER / SERVER_HOST / SERVER_PORT(可省) / SERVER_PATH。
-# 注：模组页为 CDN 模式(图片直接来自 Modrinth CDN)，故只部署 XAML 与版本号，不上传图片目录。
+# 图片自托管: 下载到 images/ 部署到 $SERVER_PATH/images/, 与 Steam 页的 .jpg 共存
+# (模组图是 .png, 清理时只删 .png 不碰 .jpg, 避免互相干扰)。
 name: ModPage
 
 on:
@@ -44,7 +45,7 @@ jobs:
           git config user.name "llsgllsg"
           git config user.email "151439431+llsgllsg@users.noreply.github.com"
           git config http.version HTTP/1.1
-          git add history.json
+          git add history.json images/
           if git diff --cached --quiet; then
             echo "history.json 无变化，跳过提交"
           else
@@ -61,14 +62,25 @@ jobs:
             ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
             "mkdir -p ${{ secrets.SERVER_PATH }}"
 
-      - name: 上传 XAML 文件
+      - name: 清理远程旧模组图片（只删 images/ 下第一层的 .png, 不影响 Steam 页的 .jpg）
+        run: |
+          if [ -z "${{ secrets.SERVER_PATH }}" ]; then
+            echo "SERVER_PATH 为空，跳过清理"
+          else
+            sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no -p ${{ secrets.SERVER_PORT || 22 }} \
+              ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
+              "mkdir -p ${{ secrets.SERVER_PATH }}/images && find ${{ secrets.SERVER_PATH }}/images -maxdepth 1 -type f -name '*.png' -delete"
+            echo "远程旧模组图片已清理"
+          fi
+
+      - name: 上传 XAML 与图片
         run: |
           for i in 1 2; do
-            echo "尝试上传 XAML (第 $i 次)"
-            if sshpass -p '${{ secrets.SSH_PASSWORD }}' scp -o StrictHostKeyChecking=no -P ${{ secrets.SERVER_PORT || 22 }} \
-                ModPage.xaml \
+            echo "尝试上传 XAML 与图片 (第 $i 次)"
+            if sshpass -p '${{ secrets.SSH_PASSWORD }}' scp -r -o StrictHostKeyChecking=no -P ${{ secrets.SERVER_PORT || 22 }} \
+                ModPage.xaml images \
                 ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:${{ secrets.SERVER_PATH }}/; then
-              echo "XAML 上传成功"
+              echo "XAML 与图片上传成功"
               exit 0
             else
               echo "上传失败，等待重试..."
