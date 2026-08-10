@@ -61,7 +61,7 @@ def build_stats_xaml(mod: dict) -> str:
     return (
         f'<TextBlock Margin="0,6,0,0" HorizontalAlignment="Center" TextAlignment="Center" '
         f'VerticalAlignment="Center" FontSize="14" FontWeight="Bold" '
-        f'Foreground="{{DynamicResource ColorBrush3}}" Text="{text}" />'
+        f'Foreground="{{DynamicResource ColorBrush3}}" TextWrapping="Wrap" ToolTip="{text}" Text="{text}" />'
     )
 
 
@@ -73,7 +73,7 @@ def build_tags_xaml(mod: dict) -> str:
     return (
         f'<TextBlock Margin="0,4,0,0" HorizontalAlignment="Center" TextAlignment="Center" '
         f'VerticalAlignment="Center" FontSize="13" '
-        f'Foreground="{{DynamicResource ColorBrush4}}" Text="{text}" />'
+        f'Foreground="{{DynamicResource ColorBrush4}}" TextWrapping="Wrap" ToolTip="{text}" Text="{text}" />'
     )
 
 
@@ -96,12 +96,12 @@ def build_buttons_xaml(mod: dict) -> str:
     dl = mod.get("download_url") or ""
     if dl:
         parts.append(
-            f'<local:MyIconTextButton Height="32" Margin="0,0,6,0" '
+            f'<local:MyIconTextButton Height="30" Margin="0,0,3,0" '
             f'Text="下载" EventType="下载文件" EventData="{escape_xaml(dl)}" '
             f'LogoScale="1" Logo="M19,9h-4V3H9v6H5l7,7L19,9zM5,18v2h14v-2H5z" />'
         )
     parts.append(
-        f'<local:MyIconTextButton Height="32" Margin="{6 if dl else 0},0,0,0" '
+        f'<local:MyIconTextButton Height="30" Margin="{3 if dl else 0},0,0,0" '
         f'Text="查看详情" EventType="打开网页" EventData="{escape_xaml(mod["url"])}" '
         f'LogoScale="1" Logo="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />'
     )
