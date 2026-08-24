@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-09": [
-      "fwa",
-      "punchy-fpa",
-      "inventory-interactions",
-      "moanimals",
-      "antarchy",
-      "create-aeronautics",
-      "yungs-better-caves",
-      "tacz-refabricated",
-      "shadow-drop",
-      "navas-zamega",
-      "sable-(create-aeronautics)-collision-damage",
-      "create-electro-energetics"
-    ],
     "2026-08-10": [
       "create-coasters-simulated",
       "terrain-diffusion",
@@ -209,6 +195,20 @@
       "aitk",
       "just-enough-guns-neoforge",
       "f-tech-equipment"
+    ],
+    "2026-08-24": [
+      "create-electro-energetics",
+      "tacz-refabricated",
+      "fwa",
+      "navas-zamega",
+      "punchy-fpa",
+      "yungs-better-caves",
+      "create-aeronautics",
+      "tiny-dragons",
+      "antarchy",
+      "animal-garden-sea-otter",
+      "inventory-interactions",
+      "moanimals"
     ]
   }
 }
