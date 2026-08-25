@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-10": [
-      "create-coasters-simulated",
-      "terrain-diffusion",
-      "cult-of-azazel",
-      "osc-dp",
-      "roadarchitect",
-      "wavify",
-      "dap-ur-homies",
-      "server-side-horror",
-      "verity-je-official",
-      "swinging-lanterns",
-      "vibrancy",
-      "block-pack"
-    ],
     "2026-08-11": [
       "legendary-gemstones",
       "vercte-satchels",
@@ -209,6 +195,20 @@
       "animal-garden-sea-otter",
       "inventory-interactions",
       "moanimals"
+    ],
+    "2026-08-25": [
+      "create-coasters-simulated",
+      "dap-ur-homies",
+      "verity-je-official",
+      "wavify",
+      "swinging-lanterns",
+      "fancy-door-animations",
+      "kiss-a-friend",
+      "cult-of-azazel",
+      "vibrancy",
+      "terrain-diffusion",
+      "block-pack",
+      "osc-dp"
     ]
   }
 }
