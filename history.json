@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-11": [
-      "legendary-gemstones",
-      "vercte-satchels",
-      "viltrumite",
-      "room-for-two",
-      "create-tracks+",
-      "gd656killicon",
-      "outln.frombelowland",
-      "orbital-railgun",
-      "sunken-spires",
-      "streams-reflowing",
-      "crop-critters",
-      "grassier-grass"
-    ],
     "2026-08-12": [
       "wonderland-jar",
       "obsessed",
@@ -209,6 +195,20 @@
       "terrain-diffusion",
       "block-pack",
       "osc-dp"
+    ],
+    "2026-08-26": [
+      "cirrus",
+      "sable-(create-aeronautics)-collision-damage",
+      "earth-and-water",
+      "streams-reflowing",
+      "orbital-railgun",
+      "grassier-grass",
+      "tacz-1.21.1",
+      "enchantments-expansion",
+      "create-tracks+",
+      "sunken-spires",
+      "bbs-fs",
+      "viltrumite"
     ]
   }
 }
