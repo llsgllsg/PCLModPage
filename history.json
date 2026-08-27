@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-12": [
-      "wonderland-jar",
-      "obsessed",
-      "fractal-lightning",
-      "prisma-craft",
-      "create-deep-seas",
-      "create-propulsion-simulated",
-      "kaleidoscopetavern",
-      "grim-kingdoms-lost-structures-ruins",
-      "the-roads-more-travelled",
-      "minepathy",
-      "accents",
-      "alexs-mobs(1.21.1)"
-    ],
     "2026-08-13": [
       "webs",
       "big-water",
@@ -209,6 +195,20 @@
       "sunken-spires",
       "bbs-fs",
       "viltrumite"
+    ],
+    "2026-08-27": [
+      "kaleidoscope-cookery-refabricated",
+      "obsessed",
+      "create-propulsion-simulated",
+      "vercte-satchels",
+      "create-deep-seas",
+      "wonderland-jar",
+      "room-for-two",
+      "grim-kingdoms-lost-structures-ruins",
+      "the-roads-more-travelled",
+      "minepathy",
+      "light-dust",
+      "outln.frombelowland"
     ]
   }
 }
