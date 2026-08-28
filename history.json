@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-13": [
-      "webs",
-      "big-water",
-      "animal-garden-bull-shark",
-      "immersive-enchanting",
-      "playereactions",
-      "subtly-dungeons",
-      "dynamic-waters-realistic-flowing-rivers",
-      "borninchaos",
-      "shine",
-      "tiny-takeover-x-punchy",
-      "better-combat-particle",
-      "cpa"
-    ],
     "2026-08-14": [
       "valkyrien-space-war",
       "the-copperier-age",
@@ -209,6 +195,20 @@
       "minepathy",
       "light-dust",
       "outln.frombelowland"
+    ],
+    "2026-08-28": [
+      "webs",
+      "untitledlog",
+      "cpa",
+      "dungeons-and-taverns-mineshaft-overhaul",
+      "pmweathercm1",
+      "shine",
+      "borninchaos",
+      "kaleidoscopetavern",
+      "playereactions",
+      "accents",
+      "dynamic-waters-realistic-flowing-rivers",
+      "server-side-horror"
     ]
   }
 }
