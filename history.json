@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-14": [
-      "valkyrien-space-war",
-      "the-copperier-age",
-      "roadweaver",
-      "lukis-strongholds",
-      "linear-bearing",
-      "dive-in",
-      "immersive-gateways",
-      "create-bits-n-bobs",
-      "ecliptic-seasons",
-      "portalmod",
-      "horrets-extended-megas-cobblemon",
-      "lets-do-lilis-pottery"
-    ],
     "2026-08-15": [
       "serene-seasons-plus",
       "cinchs-missing-blocks",
@@ -209,6 +195,20 @@
       "accents",
       "dynamic-waters-realistic-flowing-rivers",
       "server-side-horror"
+    ],
+    "2026-08-29": [
+      "abyssal-decor",
+      "girlfriend",
+      "the-copperier-age",
+      "portalmod",
+      "create-bits-n-bobs",
+      "horrets-extended-megas-cobblemon",
+      "better-combat-particle",
+      "migamigos",
+      "prisma-craft",
+      "roadweaver",
+      "valkyrien-space-war",
+      "dive-in"
     ]
   }
 }
