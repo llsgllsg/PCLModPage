@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-15": [
-      "serene-seasons-plus",
-      "cinchs-missing-blocks",
-      "all-the-heads",
-      "shape-shifter-curse",
-      "sizeable-foliage",
-      "cobblemonraiddens",
-      "puddles-floods",
-      "dreamshift",
-      "crop-and-kettle",
-      "ecological-replenishment-station",
-      "wonderoussea",
-      "valleys"
-    ],
     "2026-08-16": [
       "scavenger-mod",
       "elytra-contrails-mod",
@@ -209,6 +195,20 @@
       "roadweaver",
       "valkyrien-space-war",
       "dive-in"
+    ],
+    "2026-08-30": [
+      "crop-and-kettle",
+      "lukis-strongholds",
+      "dreamshift",
+      "cobblemonraiddens",
+      "lets-do-lilis-pottery",
+      "alexs-mobs(1.21.1)",
+      "big-water",
+      "sizeable-foliage",
+      "ecliptic-seasons",
+      "shape-shifter-curse",
+      "subtly-dungeons",
+      "ecological-replenishment-station"
     ]
   }
 }
