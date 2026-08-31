@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-16": [
-      "scavenger-mod",
-      "elytra-contrails-mod",
-      "glowing-trims-mod",
-      "clavis",
-      "butterbee",
-      "barnyard-buddies",
-      "cave-world-remastered",
-      "vista_tv",
-      "star-wars-expansion",
-      "starcatcher",
-      "dynamic-life-free-version",
-      "soulbound-turnbattle"
-    ],
     "2026-08-17": [
       "from-the-caves-official",
       "tas",
@@ -209,6 +195,20 @@
       "shape-shifter-curse",
       "subtly-dungeons",
       "ecological-replenishment-station"
+    ],
+    "2026-08-31": [
+      "linear-bearing",
+      "vista_tv",
+      "valleys",
+      "elytra-contrails-mod",
+      "electroblobs-wizardry-redux",
+      "starcatcher",
+      "scavenger-mod",
+      "random-crafts",
+      "fractal-lightning",
+      "nemos-backpacks",
+      "barnyard-buddies",
+      "butterbee"
     ]
   }
 }
