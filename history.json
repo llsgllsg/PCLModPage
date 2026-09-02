@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-18": [
-      "alexs-mobs-continued",
-      "destroying-minecraft",
-      "classic-farlands",
-      "stormies-spiders",
-      "more-critters",
-      "btwce",
-      "unstable-generation",
-      "re-animal",
-      "penchant",
-      "mod-primal",
-      "ziplines-rezipped",
-      "beyond_the_skybox"
-    ],
     "2026-08-19": [
       "spider-overhaul",
       "floras-delight",
@@ -209,6 +195,20 @@
       "wathe",
       "tiny-takeover-x-punchy",
       "windswept"
+    ],
+    "2026-09-02": [
+      "mod-primal",
+      "custom-glint",
+      "atmospheric-fauna",
+      "wonderoussea",
+      "destroying-minecraft",
+      "monster-expansion",
+      "immersive-enchanting",
+      "ziplines-rezipped",
+      "animal-garden-common-raven",
+      "stdrive",
+      "kitchen-projectiles",
+      "re-animal"
     ]
   }
 }
