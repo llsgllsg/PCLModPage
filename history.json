@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-19": [
-      "spider-overhaul",
-      "floras-delight",
-      "dannys-aot",
-      "so-tuff",
-      "stupid-block-animations",
-      "unusual-prehistory-2",
-      "deconature",
-      "nycto",
-      "vb-compat",
-      "backported-spears",
-      "lighterend",
-      "wilder-flowers"
-    ],
     "2026-08-20": [
       "yori3os-grappling-hooks",
       "project-atmosphere",
@@ -209,6 +195,20 @@
       "stdrive",
       "kitchen-projectiles",
       "re-animal"
+    ],
+    "2026-09-03": [
+      "spider-overhaul",
+      "unusual-prehistory-2",
+      "alexs-mobs-continued",
+      "classic-farlands",
+      "shadow-drop",
+      "natural-waters",
+      "puddles-floods",
+      "dannys-aot",
+      "dynamic-life-free-version",
+      "better-fishtanks",
+      "landmarks",
+      "soulbound-turnbattle"
     ]
   }
 }
