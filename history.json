@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-20": [
-      "yori3os-grappling-hooks",
-      "project-atmosphere",
-      "epic-structures-dungeons",
-      "windy",
-      "creature-feature",
-      "lukis-woodland-mansions",
-      "infernal-expansion-redux",
-      "pillager-caravans",
-      "new-sea-life",
-      "end-villager-outpost",
-      "cryptic-foes",
-      "epic-structures-witch-huts"
-    ],
     "2026-08-21": [
       "big-lost-city",
       "hide+seek",
@@ -209,6 +195,20 @@
       "better-fishtanks",
       "landmarks",
       "soulbound-turnbattle"
+    ],
+    "2026-09-04": [
+      "windy",
+      "sky-archipelago",
+      "lukis-woodland-mansions",
+      "legendary-gemstones",
+      "creature-feature",
+      "animal-garden-bull-shark",
+      "backported-spears",
+      "so-tuff",
+      "crop-critters",
+      "whimsy-deco",
+      "alienevo",
+      "infernal-expansion-redux"
     ]
   }
 }
