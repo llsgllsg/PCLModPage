@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-21": [
-      "big-lost-city",
-      "hide+seek",
-      "alexs-caves-(unofficial-port)",
-      "tellus",
-      "ly-fishing-expansion",
-      "homesteads",
-      "animal-garden-manatee",
-      "villager-retaliation",
-      "shadeandsaturation",
-      "saints-dragons",
-      "vs-hose-connectors",
-      "evil-hunter"
-    ],
     "2026-08-22": [
       "cosmos-mod",
       "royalvariations",
@@ -209,6 +195,20 @@
       "whimsy-deco",
       "alienevo",
       "infernal-expansion-redux"
+    ],
+    "2026-09-05": [
+      "vs-hose-connectors",
+      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
+      "wilder-flowers",
+      "nycto",
+      "saints-dragons",
+      "stormies-spiders",
+      "glowing-trims-mod",
+      "pillager-caravans",
+      "tellus",
+      "kaleidoscope-deco",
+      "deconature",
+      "epic-structures-dungeons"
     ]
   }
 }
