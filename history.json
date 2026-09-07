@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-23": [
-      "tools-on-my-back",
-      "alpha-below",
-      "sengokujidaimod",
-      "betterend-neoforge",
-      "villagers-reborn",
-      "the-five-nights-at-freddys-mod",
-      "a-breach-happened",
-      "sb-enchantment-effects",
-      "cobbledgacha",
-      "aitk",
-      "just-enough-guns-neoforge",
-      "f-tech-equipment"
-    ],
     "2026-08-24": [
       "create-electro-energetics",
       "tacz-refabricated",
@@ -209,6 +195,20 @@
       "street-art",
       "royalvariations",
       "btwce"
+    ],
+    "2026-09-07": [
+      "world-alive",
+      "countereds-smooth-f5",
+      "indexed-enchanting",
+      "lets-do-alpine-whispers",
+      "blast-from-the-past",
+      "lets-do-hearth-timber",
+      "two-dimensional-reloaded",
+      "a-breach-happened",
+      "creatures-of-petrichor",
+      "f-tech-equipment",
+      "vb-compat",
+      "legendary-survival-overhaul"
     ]
   }
 }
