@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-24": [
-      "create-electro-energetics",
-      "tacz-refabricated",
-      "fwa",
-      "navas-zamega",
-      "punchy-fpa",
-      "yungs-better-caves",
-      "create-aeronautics",
-      "tiny-dragons",
-      "antarchy",
-      "animal-garden-sea-otter",
-      "inventory-interactions",
-      "moanimals"
-    ],
     "2026-08-25": [
       "create-coasters-simulated",
       "dap-ur-homies",
@@ -209,6 +195,20 @@
       "f-tech-equipment",
       "vb-compat",
       "legendary-survival-overhaul"
+    ],
+    "2026-09-08": [
+      "punchy-fpa",
+      "create-aeroworks",
+      "antarchy",
+      "shadeandsaturation",
+      "3d-maps",
+      "create-aeronautics",
+      "unstable-generation",
+      "navas-zamega",
+      "alpha-below",
+      "aitk",
+      "fwa",
+      "big-lost-city"
     ]
   }
 }
