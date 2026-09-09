@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-25": [
-      "create-coasters-simulated",
-      "dap-ur-homies",
-      "verity-je-official",
-      "wavify",
-      "swinging-lanterns",
-      "fancy-door-animations",
-      "kiss-a-friend",
-      "cult-of-azazel",
-      "vibrancy",
-      "terrain-diffusion",
-      "block-pack",
-      "osc-dp"
-    ],
     "2026-08-26": [
       "cirrus",
       "sable-(create-aeronautics)-collision-damage",
@@ -209,6 +195,20 @@
       "aitk",
       "fwa",
       "big-lost-city"
+    ],
+    "2026-09-09": [
+      "verity-je-official",
+      "block-pack",
+      "where-winds-blow",
+      "osc-dp",
+      "create-coasters-simulated",
+      "hide+seek",
+      "dap-ur-homies",
+      "sengokujidaimod",
+      "swinging-lanterns",
+      "inventory-interactions",
+      "fangs-n-claws",
+      "just-enough-guns-neoforge"
     ]
   }
 }
