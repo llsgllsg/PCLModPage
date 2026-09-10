@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-26": [
-      "cirrus",
-      "sable-(create-aeronautics)-collision-damage",
-      "earth-and-water",
-      "streams-reflowing",
-      "orbital-railgun",
-      "grassier-grass",
-      "tacz-1.21.1",
-      "enchantments-expansion",
-      "create-tracks+",
-      "sunken-spires",
-      "bbs-fs",
-      "viltrumite"
-    ],
     "2026-08-27": [
       "kaleidoscope-cookery-refabricated",
       "obsessed",
@@ -209,6 +195,20 @@
       "inventory-interactions",
       "fangs-n-claws",
       "just-enough-guns-neoforge"
+    ],
+    "2026-09-10": [
+      "cirrus",
+      "petite-inventory",
+      "fancy-door-animations",
+      "ly-fishing-expansion",
+      "grassier-grass",
+      "new-sea-life",
+      "streams-reflowing",
+      "cult-of-azazel",
+      "cobbledgacha",
+      "create-electro-energetics",
+      "overpacked",
+      "create-tracks+"
     ]
   }
 }
