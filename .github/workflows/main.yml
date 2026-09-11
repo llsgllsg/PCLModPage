@@ -23,7 +23,7 @@ jobs:
       - name: 安装依赖
         run: pip install requests pillow
 
-      - name: 缓存模组图标(跨运行复用, 避免重复下载)
+      - name: 缓存
         uses: actions/cache@v4
         with:
           path: cache/icons
@@ -44,7 +44,7 @@ jobs:
             exit 1
           fi
 
-      - name: 记录当天已推模组并写回仓库
+      - name: 记录
         run: |
           git config user.name "llsgllsg"
           git config user.email "151439431+llsgllsg@users.noreply.github.com"
@@ -66,7 +66,7 @@ jobs:
             ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} \
             "mkdir -p ${{ secrets.SERVER_PATH }}"
 
-      - name: 清理远程旧图片缓存（只保留当天这批）
+      - name: 清理缓存
         run: |
           if [ -z "${{ secrets.SERVER_PATH }}" ]; then
             echo "SERVER_PATH 为空，跳过清理"
@@ -94,7 +94,7 @@ jobs:
           echo "上传失败，放弃"
           exit 1
 
-      - name: 在远程创建/覆盖版本号文件 ModPage.xaml.ini
+      - name: 版本号
         run: |
           TIMESTAMP=$(date -u +%s)
           sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no -p ${{ secrets.SERVER_PORT || 22 }} \
