@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-28": [
-      "webs",
-      "untitledlog",
-      "cpa",
-      "dungeons-and-taverns-mineshaft-overhaul",
-      "pmweathercm1",
-      "shine",
-      "borninchaos",
-      "kaleidoscopetavern",
-      "playereactions",
-      "accents",
-      "dynamic-waters-realistic-flowing-rivers",
-      "server-side-horror"
-    ],
     "2026-08-29": [
       "abyssal-decor",
       "girlfriend",
@@ -209,6 +195,20 @@
       "viltrumite",
       "hazen-n-stuff",
       "villagers-reborn"
+    ],
+    "2026-09-12": [
+      "vibrancy",
+      "the-roads-more-travelled",
+      "room-for-two",
+      "tacz-1.21.1",
+      "obsessed",
+      "shine",
+      "dungeons-and-taverns-mineshaft-overhaul",
+      "upgrade-items",
+      "grim-kingdoms-lost-structures-ruins",
+      "tiny-dragons",
+      "jurassic-reborn",
+      "borninchaos"
     ]
   }
 }
