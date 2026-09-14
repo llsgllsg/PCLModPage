@@ -1,33 +1,5 @@
 {
   "history": {
-    "2026-08-29": [
-      "abyssal-decor",
-      "girlfriend",
-      "the-copperier-age",
-      "portalmod",
-      "create-bits-n-bobs",
-      "horrets-extended-megas-cobblemon",
-      "better-combat-particle",
-      "migamigos",
-      "prisma-craft",
-      "roadweaver",
-      "valkyrien-space-war",
-      "dive-in"
-    ],
-    "2026-08-30": [
-      "crop-and-kettle",
-      "lukis-strongholds",
-      "dreamshift",
-      "cobblemonraiddens",
-      "lets-do-lilis-pottery",
-      "alexs-mobs(1.21.1)",
-      "big-water",
-      "sizeable-foliage",
-      "ecliptic-seasons",
-      "shape-shifter-curse",
-      "subtly-dungeons",
-      "ecological-replenishment-station"
-    ],
     "2026-08-31": [
       "linear-bearing",
       "vista_tv",
@@ -209,6 +181,20 @@
       "tiny-dragons",
       "jurassic-reborn",
       "borninchaos"
+    ],
+    "2026-09-14": [
+      "sizeable-foliage",
+      "light-dust",
+      "dreamshift",
+      "kaleidoscopetavern",
+      "ecliptic-seasons",
+      "cobblemonraiddens",
+      "playereactions",
+      "create-bits-n-bobs",
+      "pmweathercm1",
+      "big-water",
+      "betternether-neoforge",
+      "lukis-strongholds"
     ]
   }
 }
