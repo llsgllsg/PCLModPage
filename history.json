@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-08-31": [
-      "linear-bearing",
-      "vista_tv",
-      "valleys",
-      "elytra-contrails-mod",
-      "electroblobs-wizardry-redux",
-      "starcatcher",
-      "scavenger-mod",
-      "random-crafts",
-      "fractal-lightning",
-      "nemos-backpacks",
-      "barnyard-buddies",
-      "butterbee"
-    ],
     "2026-09-01": [
       "create-cosmonatics",
       "bathymetry",
@@ -195,6 +181,20 @@
       "big-water",
       "betternether-neoforge",
       "lukis-strongholds"
+    ],
+    "2026-09-15": [
+      "the-five-nights-at-freddys-mod",
+      "evil-hunter",
+      "vista_tv",
+      "all-the-heads",
+      "betterend-neoforge",
+      "starcatcher",
+      "the-copperier-age",
+      "roadweaver",
+      "portalmod",
+      "mebahels-creatures-draugr",
+      "animal-garden-sea-otter",
+      "dive-in"
     ]
   }
 }
