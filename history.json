@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-01": [
-      "create-cosmonatics",
-      "bathymetry",
-      "serene-seasons-plus",
-      "railways-untold",
-      "from-the-caves-official",
-      "star-wars-expansion",
-      "book-of-dragons",
-      "tas",
-      "immersive-gateways",
-      "wathe",
-      "tiny-takeover-x-punchy",
-      "windswept"
-    ],
     "2026-09-02": [
       "mod-primal",
       "custom-glint",
@@ -195,6 +181,20 @@
       "mebahels-creatures-draugr",
       "animal-garden-sea-otter",
       "dive-in"
+    ],
+    "2026-09-16": [
+      "tas",
+      "book-of-dragons",
+      "bathymetry",
+      "earth-and-water",
+      "dynamic-waters-realistic-flowing-rivers",
+      "tiny-takeover-x-punchy",
+      "cpa",
+      "abyssal-decor",
+      "horrets-extended-megas-cobblemon",
+      "create-propulsion-simulated",
+      "elytra-contrails-mod",
+      "scavenger-mod"
     ]
   }
 }
