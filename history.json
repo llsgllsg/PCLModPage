@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-03": [
-      "spider-overhaul",
-      "unusual-prehistory-2",
-      "alexs-mobs-continued",
-      "classic-farlands",
-      "shadow-drop",
-      "natural-waters",
-      "puddles-floods",
-      "dannys-aot",
-      "dynamic-life-free-version",
-      "better-fishtanks",
-      "landmarks",
-      "soulbound-turnbattle"
-    ],
     "2026-09-04": [
       "windy",
       "sky-archipelago",
@@ -195,6 +181,20 @@
       "monster-expansion",
       "mod-primal",
       "ecological-replenishment-station"
+    ],
+    "2026-09-18": [
+      "alexs-mobs-continued",
+      "spider-overhaul",
+      "alexs-caves-(unofficial-port)",
+      "unusual-prehistory-2",
+      "classic-farlands",
+      "koopas-critters",
+      "puddles-floods",
+      "butterbee",
+      "atmospheric-fauna",
+      "cool-rain-reforged",
+      "animal-garden-red-panda",
+      "animal-garden-common-raven"
     ]
   }
 }
