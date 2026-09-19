@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-04": [
-      "windy",
-      "sky-archipelago",
-      "lukis-woodland-mansions",
-      "legendary-gemstones",
-      "creature-feature",
-      "animal-garden-bull-shark",
-      "backported-spears",
-      "so-tuff",
-      "crop-critters",
-      "whimsy-deco",
-      "alienevo",
-      "infernal-expansion-redux"
-    ],
     "2026-09-05": [
       "vs-hose-connectors",
       "grim-kingdoms-lost-structures-ruins-vanilla-edition",
@@ -195,6 +181,20 @@
       "cool-rain-reforged",
       "animal-garden-red-panda",
       "animal-garden-common-raven"
+    ],
+    "2026-09-19": [
+      "wathe",
+      "vanilla-progression-chaos-cubed-edition",
+      "windy",
+      "sable-(create-aeronautics)-collision-damage",
+      "better-combat-particle",
+      "shadow-drop",
+      "dannys-aot",
+      "whimsy-deco",
+      "creature-feature",
+      "animal-garden-manatee",
+      "infernal-expansion-redux",
+      "powerborne-heroes"
     ]
   }
 }
