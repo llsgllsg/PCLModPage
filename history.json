@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-05": [
-      "vs-hose-connectors",
-      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
-      "wilder-flowers",
-      "nycto",
-      "saints-dragons",
-      "stormies-spiders",
-      "glowing-trims-mod",
-      "pillager-caravans",
-      "tellus",
-      "kaleidoscope-deco",
-      "deconature",
-      "epic-structures-dungeons"
-    ],
     "2026-09-06": [
       "immersive-horse-riding",
       "penchant",
@@ -195,6 +181,20 @@
       "animal-garden-manatee",
       "infernal-expansion-redux",
       "powerborne-heroes"
+    ],
+    "2026-09-20": [
+      "re-animal",
+      "sb-enchantment-effects",
+      "pillager-caravans",
+      "destroying-minecraft",
+      "kaleidoscope-deco",
+      "tellus",
+      "saints-dragons",
+      "immersive-enchanting",
+      "vs-hose-connectors",
+      "legendary-gemstones",
+      "untitledlog",
+      "nycto"
     ]
   }
 }
