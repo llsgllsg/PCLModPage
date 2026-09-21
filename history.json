@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-06": [
-      "immersive-horse-riding",
-      "penchant",
-      "villager-retaliation",
-      "stupid-block-animations",
-      "yori3os-grappling-hooks",
-      "mmr-moogs-mineshafts-reimagined",
-      "cosmos-mod",
-      "combateffects",
-      "structures-mod",
-      "street-art",
-      "royalvariations",
-      "btwce"
-    ],
     "2026-09-07": [
       "world-alive",
       "countereds-smooth-f5",
@@ -195,6 +181,20 @@
       "legendary-gemstones",
       "untitledlog",
       "nycto"
+    ],
+    "2026-09-21": [
+      "custom-glow-enchantment-outline",
+      "lukis-woodland-mansions",
+      "crop-critters",
+      "linear-bearing",
+      "prisma-craft",
+      "backported-spears",
+      "mmr-moogs-mineshafts-reimagined",
+      "girlfriend",
+      "player2npc",
+      "dynamic-life-free-version",
+      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
+      "combateffects"
     ]
   }
 }
