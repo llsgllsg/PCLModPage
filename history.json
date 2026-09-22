@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-07": [
-      "world-alive",
-      "countereds-smooth-f5",
-      "indexed-enchanting",
-      "lets-do-alpine-whispers",
-      "blast-from-the-past",
-      "lets-do-hearth-timber",
-      "two-dimensional-reloaded",
-      "a-breach-happened",
-      "creatures-of-petrichor",
-      "f-tech-equipment",
-      "vb-compat",
-      "legendary-survival-overhaul"
-    ],
     "2026-09-08": [
       "punchy-fpa",
       "create-aeroworks",
@@ -195,6 +181,20 @@
       "dynamic-life-free-version",
       "grim-kingdoms-lost-structures-ruins-vanilla-edition",
       "combateffects"
+    ],
+    "2026-09-22": [
+      "world-alive",
+      "immersive-gateways",
+      "tools-on-my-back",
+      "millager",
+      "lets-do-alpine-whispers",
+      "structures-mod",
+      "valleys",
+      "electroblobs-wizardry-redux",
+      "immersive-horse-riding",
+      "countereds-smooth-f5",
+      "royalvariations",
+      "street-art"
     ]
   }
 }
