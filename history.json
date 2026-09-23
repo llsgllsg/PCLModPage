@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-08": [
-      "punchy-fpa",
-      "create-aeroworks",
-      "antarchy",
-      "shadeandsaturation",
-      "3d-maps",
-      "create-aeronautics",
-      "unstable-generation",
-      "navas-zamega",
-      "alpha-below",
-      "aitk",
-      "fwa",
-      "big-lost-city"
-    ],
     "2026-09-09": [
       "verity-je-official",
       "block-pack",
@@ -195,6 +181,20 @@
       "countereds-smooth-f5",
       "royalvariations",
       "street-art"
+    ],
+    "2026-09-23": [
+      "create-aeronautics",
+      "barnyard-buddies",
+      "navas-zamega",
+      "punchy-fpa",
+      "antarchy",
+      "fwa",
+      "3d-maps",
+      "legendary-survival-overhaul",
+      "creatures-of-petrichor",
+      "wilder-flowers",
+      "btwce",
+      "f-tech-equipment"
     ]
   }
 }
