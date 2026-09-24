@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-09": [
-      "verity-je-official",
-      "block-pack",
-      "where-winds-blow",
-      "osc-dp",
-      "create-coasters-simulated",
-      "hide+seek",
-      "dap-ur-homies",
-      "sengokujidaimod",
-      "swinging-lanterns",
-      "inventory-interactions",
-      "fangs-n-claws",
-      "just-enough-guns-neoforge"
-    ],
     "2026-09-10": [
       "cirrus",
       "petite-inventory",
@@ -195,6 +181,20 @@
       "wilder-flowers",
       "btwce",
       "f-tech-equipment"
+    ],
+    "2026-09-24": [
+      "dap-ur-homies",
+      "where-winds-blow",
+      "villager-retaliation",
+      "just-enough-guns-neoforge",
+      "create-aeroworks",
+      "verity-je-official",
+      "unstable-generation",
+      "railways-untold",
+      "modern-apple-cows",
+      "sengokujidaimod",
+      "block-pack",
+      "inventory-interactions"
     ]
   }
 }
