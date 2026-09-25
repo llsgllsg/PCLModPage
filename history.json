@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-10": [
-      "cirrus",
-      "petite-inventory",
-      "fancy-door-animations",
-      "ly-fishing-expansion",
-      "grassier-grass",
-      "new-sea-life",
-      "streams-reflowing",
-      "cult-of-azazel",
-      "cobbledgacha",
-      "create-electro-energetics",
-      "overpacked",
-      "create-tracks+"
-    ],
     "2026-09-11": [
       "terrain-diffusion",
       "minepathy",
@@ -195,6 +181,20 @@
       "sengokujidaimod",
       "block-pack",
       "inventory-interactions"
+    ],
+    "2026-09-25": [
+      "so-tuff",
+      "create-coasters-simulated",
+      "cirrus",
+      "streams-reflowing",
+      "beyond_the_skybox",
+      "minecraft-but-chunks-are-random",
+      "vercte-satchels",
+      "natural-waters",
+      "stupid-block-animations",
+      "grassier-grass",
+      "yori3os-grappling-hooks",
+      "shadeandsaturation"
     ]
   }
 }
