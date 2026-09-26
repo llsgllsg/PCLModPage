@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-11": [
-      "terrain-diffusion",
-      "minepathy",
-      "sunken-spires",
-      "marvelous-menagerie-paradoxical",
-      "bbs-fs",
-      "lighterend",
-      "create-deep-seas",
-      "outln.frombelowland",
-      "wonderland-jar",
-      "viltrumite",
-      "hazen-n-stuff",
-      "villagers-reborn"
-    ],
     "2026-09-12": [
       "vibrancy",
       "the-roads-more-travelled",
@@ -195,6 +181,20 @@
       "grassier-grass",
       "yori3os-grappling-hooks",
       "shadeandsaturation"
+    ],
+    "2026-09-26": [
+      "fangs-n-claws",
+      "lighterend",
+      "landmarks",
+      "terrain-diffusion",
+      "ly-fishing-expansion",
+      "custom-glint",
+      "better-fishtanks",
+      "minepathy",
+      "sunken-spires",
+      "shape-shifter-curse",
+      "swinging-lanterns",
+      "roaring"
     ]
   }
 }
