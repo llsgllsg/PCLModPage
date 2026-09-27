@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-12": [
-      "vibrancy",
-      "the-roads-more-travelled",
-      "room-for-two",
-      "tacz-1.21.1",
-      "obsessed",
-      "shine",
-      "dungeons-and-taverns-mineshaft-overhaul",
-      "upgrade-items",
-      "grim-kingdoms-lost-structures-ruins",
-      "tiny-dragons",
-      "jurassic-reborn",
-      "borninchaos"
-    ],
     "2026-09-14": [
       "sizeable-foliage",
       "light-dust",
@@ -195,6 +181,20 @@
       "shape-shifter-curse",
       "swinging-lanterns",
       "roaring"
+    ],
+    "2026-09-27": [
+      "wonderland-jar",
+      "grim-kingdoms-lost-structures-ruins",
+      "paintersinc",
+      "shine",
+      "the-roads-more-travelled",
+      "upgrade-items",
+      "viltrumite",
+      "vibrancy",
+      "deconature",
+      "indexed-enchanting",
+      "borninchaos",
+      "create-electro-energetics"
     ]
   }
 }
