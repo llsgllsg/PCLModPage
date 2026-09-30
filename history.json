@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-15": [
-      "the-five-nights-at-freddys-mod",
-      "evil-hunter",
-      "vista_tv",
-      "all-the-heads",
-      "betterend-neoforge",
-      "starcatcher",
-      "the-copperier-age",
-      "roadweaver",
-      "portalmod",
-      "mebahels-creatures-draugr",
-      "animal-garden-sea-otter",
-      "dive-in"
-    ],
     "2026-09-16": [
       "tas",
       "book-of-dragons",
@@ -209,6 +195,20 @@
       "two-dimensional-reloaded",
       "overpacked",
       "pmweathercm1"
+    ],
+    "2026-09-30": [
+      "enchantments-expansion",
+      "animal-garden-bull-shark",
+      "dungeons-and-taverns-mineshaft-overhaul",
+      "starcatcher",
+      "ecliptic-seasons",
+      "betternether-neoforge",
+      "evil-hunter",
+      "room-for-two",
+      "lukis-strongholds",
+      "the-copperier-age",
+      "aitk",
+      "vista_tv"
     ]
   }
 }
