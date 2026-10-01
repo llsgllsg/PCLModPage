@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-16": [
-      "tas",
-      "book-of-dragons",
-      "bathymetry",
-      "earth-and-water",
-      "dynamic-waters-realistic-flowing-rivers",
-      "tiny-takeover-x-punchy",
-      "cpa",
-      "abyssal-decor",
-      "horrets-extended-megas-cobblemon",
-      "create-propulsion-simulated",
-      "elytra-contrails-mod",
-      "scavenger-mod"
-    ],
     "2026-09-17": [
       "alexs-mobs(1.21.1)",
       "lets-do-lilis-pottery",
@@ -209,6 +195,20 @@
       "the-copperier-age",
       "aitk",
       "vista_tv"
+    ],
+    "2026-10-01": [
+      "horror-element-mod",
+      "extractrooms",
+      "animal-garden-sea-otter",
+      "tacz-1.21.1",
+      "playereactions",
+      "bathymetry",
+      "abyssal-decor",
+      "betterend-neoforge",
+      "earth-and-water",
+      "blast-from-the-past",
+      "portalmod",
+      "kaleidoscopetavern"
     ]
   }
 }
