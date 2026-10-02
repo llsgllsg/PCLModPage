@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-17": [
-      "alexs-mobs(1.21.1)",
-      "lets-do-lilis-pottery",
-      "ziplines-rezipped",
-      "accents",
-      "wonderoussea",
-      "random-crafts",
-      "create-cosmonatics",
-      "kaleidoscope-cookery-refabricated",
-      "wavify",
-      "monster-expansion",
-      "mod-primal",
-      "ecological-replenishment-station"
-    ],
     "2026-09-18": [
       "alexs-mobs-continued",
       "spider-overhaul",
@@ -209,6 +195,20 @@
       "blast-from-the-past",
       "portalmod",
       "kaleidoscopetavern"
+    ],
+    "2026-10-02": [
+      "create-cosmonatics",
+      "monster-expansion",
+      "wavify",
+      "create-propulsion-simulated",
+      "soulbound-turnbattle",
+      "cult-of-azazel",
+      "scavenger-mod",
+      "a-breach-happened",
+      "accents",
+      "alpha-below",
+      "ziplines-rezipped",
+      "mebahels-creatures-draugr"
     ]
   }
 }
