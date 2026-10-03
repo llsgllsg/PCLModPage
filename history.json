@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-18": [
-      "alexs-mobs-continued",
-      "spider-overhaul",
-      "alexs-caves-(unofficial-port)",
-      "unusual-prehistory-2",
-      "classic-farlands",
-      "koopas-critters",
-      "puddles-floods",
-      "butterbee",
-      "atmospheric-fauna",
-      "cool-rain-reforged",
-      "animal-garden-red-panda",
-      "animal-garden-common-raven"
-    ],
     "2026-09-19": [
       "wathe",
       "vanilla-progression-chaos-cubed-edition",
@@ -209,6 +195,20 @@
       "alpha-below",
       "ziplines-rezipped",
       "mebahels-creatures-draugr"
+    ],
+    "2026-10-03": [
+      "matcha-flavoured",
+      "hazen-n-stuff",
+      "horrets-extended-megas-cobblemon",
+      "butterbee",
+      "roadweaver",
+      "unusual-prehistory-2",
+      "light-dust",
+      "tiny-takeover-x-punchy",
+      "ecological-replenishment-station",
+      "big-lost-city",
+      "big-water",
+      "alexs-mobs(1.21.1)"
     ]
   }
 }
