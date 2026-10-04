@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-19": [
-      "wathe",
-      "vanilla-progression-chaos-cubed-edition",
-      "windy",
-      "sable-(create-aeronautics)-collision-damage",
-      "better-combat-particle",
-      "shadow-drop",
-      "dannys-aot",
-      "whimsy-deco",
-      "creature-feature",
-      "animal-garden-manatee",
-      "infernal-expansion-redux",
-      "powerborne-heroes"
-    ],
     "2026-09-20": [
       "re-animal",
       "sb-enchantment-effects",
@@ -209,6 +195,20 @@
       "big-lost-city",
       "big-water",
       "alexs-mobs(1.21.1)"
+    ],
+    "2026-10-04": [
+      "spider-overhaul",
+      "random-crafts",
+      "elytra-contrails-mod",
+      "windy",
+      "vanilla-progression-chaos-cubed-edition",
+      "shadow-drop",
+      "book-of-dragons",
+      "sable-(create-aeronautics)-collision-damage",
+      "creature-feature",
+      "the-five-nights-at-freddys-mod",
+      "alexs-caves-(unofficial-port)",
+      "alexs-mobs-continued"
     ]
   }
 }
