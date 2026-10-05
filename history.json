@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-20": [
-      "re-animal",
-      "sb-enchantment-effects",
-      "pillager-caravans",
-      "destroying-minecraft",
-      "kaleidoscope-deco",
-      "tellus",
-      "saints-dragons",
-      "immersive-enchanting",
-      "vs-hose-connectors",
-      "legendary-gemstones",
-      "untitledlog",
-      "nycto"
-    ],
     "2026-09-21": [
       "custom-glow-enchantment-outline",
       "lukis-woodland-mansions",
@@ -209,6 +195,20 @@
       "the-five-nights-at-freddys-mod",
       "alexs-caves-(unofficial-port)",
       "alexs-mobs-continued"
+    ],
+    "2026-10-05": [
+      "pillager-caravans",
+      "saints-dragons",
+      "dannys-aot",
+      "villagers-reborn",
+      "puddles-floods",
+      "tellus",
+      "infernal-expansion-redux",
+      "destroying-minecraft",
+      "kaleidoscope-deco",
+      "re-animal",
+      "better-combat-particle",
+      "dynamic-waters-realistic-flowing-rivers"
     ]
   }
 }
