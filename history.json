@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-09-21": [
-      "custom-glow-enchantment-outline",
-      "lukis-woodland-mansions",
-      "crop-critters",
-      "linear-bearing",
-      "prisma-craft",
-      "backported-spears",
-      "mmr-moogs-mineshafts-reimagined",
-      "girlfriend",
-      "player2npc",
-      "dynamic-life-free-version",
-      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
-      "combateffects"
-    ],
     "2026-09-22": [
       "world-alive",
       "immersive-gateways",
@@ -209,6 +195,20 @@
       "re-animal",
       "better-combat-particle",
       "dynamic-waters-realistic-flowing-rivers"
+    ],
+    "2026-10-06": [
+      "custom-glow-enchantment-outline",
+      "crop-critters",
+      "backported-spears",
+      "petite-inventory",
+      "atmospheric-fauna",
+      "armored-foes",
+      "kiss-a-friend",
+      "koopas-critters",
+      "player2npc",
+      "lukis-woodland-mansions",
+      "classic-farlands",
+      "mmr-moogs-mineshafts-reimagined"
     ]
   }
 }
