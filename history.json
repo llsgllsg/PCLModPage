@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-09": [
-      "fwa",
-      "streams-reflowing",
-      "navas-zamega",
-      "the-roads-more-travelled",
-      "mielons-the-sift",
-      "shadeandsaturation",
-      "tellus",
-      "spider-overhaul",
-      "beyond_the_skybox",
-      "matcha-flavoured",
-      "creature-feature",
-      "punchy-fpa"
-    ],
     "2026-10-10": [
       "shine",
       "vanilla-progression-chaos-cubed-edition",
@@ -209,6 +195,20 @@
       "hazen-n-stuff",
       "ziplines-rezipped",
       "abyssal-decor"
+    ],
+    "2026-10-24": [
+      "mielons-the-sift",
+      "streams-reflowing",
+      "punchy-fpa",
+      "the-roads-more-travelled",
+      "spider-overhaul",
+      "koopas-critters",
+      "fwa",
+      "the-silver-age",
+      "matcha-flavoured",
+      "backported-spears",
+      "navas-zamega",
+      "dungeonsreborn"
     ]
   }
 }
