@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-10": [
-      "shine",
-      "vanilla-progression-chaos-cubed-edition",
-      "sb-enchantment-effects",
-      "ecliptic-seasons",
-      "portalmod",
-      "dreamshift",
-      "lukis-strongholds",
-      "bathymetry",
-      "wonderland-jar",
-      "lukis-woodland-mansions",
-      "create-aeronautics",
-      "create-propulsion-simulated"
-    ],
     "2026-10-11": [
       "3d-maps",
       "outln.frombelowland",
@@ -209,6 +195,20 @@
       "backported-spears",
       "navas-zamega",
       "dungeonsreborn"
+    ],
+    "2026-10-25": [
+      "shine",
+      "bathymetry",
+      "aeronautics-propeller-blur",
+      "create-aeronautics",
+      "create-electro-energetics",
+      "portalmod",
+      "vanilla-progression-chaos-cubed-edition",
+      "ecliptic-seasons",
+      "lukis-strongholds",
+      "minecraft-but-chunks-are-random",
+      "btwce",
+      "electroblobs-wizardry-redux"
     ]
   }
 }
