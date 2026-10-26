@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-11": [
-      "3d-maps",
-      "outln.frombelowland",
-      "valleys",
-      "sizeable-foliage",
-      "earth-and-water",
-      "animal-garden-bull-shark",
-      "cirrus",
-      "alexs-mobs-continued",
-      "modest-magic",
-      "vercte-satchels",
-      "one-dimension",
-      "terrain-diffusion"
-    ],
     "2026-10-12": [
       "betterend-neoforge",
       "railways-untold",
@@ -209,6 +195,20 @@
       "minecraft-but-chunks-are-random",
       "btwce",
       "electroblobs-wizardry-redux"
+    ],
+    "2026-10-26": [
+      "creature-feature",
+      "dungeons-and-taverns-mineshaft-overhaul",
+      "outln.frombelowland",
+      "cirrus",
+      "wonderland-jar",
+      "create-grappling-hooks",
+      "dreamshift",
+      "lukis-woodland-mansions",
+      "valleys",
+      "one-dimension",
+      "aures-farmers-structures",
+      "legendary-survival-overhaul"
     ]
   }
 }
