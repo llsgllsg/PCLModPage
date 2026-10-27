@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-12": [
-      "betterend-neoforge",
-      "railways-untold",
-      "verity-je-official",
-      "obsessed",
-      "create-aeroworks",
-      "apotheosis",
-      "book-of-dragons",
-      "penchant",
-      "world-alive",
-      "kaleidoscopetavern",
-      "create-coasters-simulated",
-      "upgrade-items"
-    ],
     "2026-10-13": [
       "block-pack",
       "extractrooms",
@@ -209,6 +195,20 @@
       "one-dimension",
       "aures-farmers-structures",
       "legendary-survival-overhaul"
+    ],
+    "2026-10-27": [
+      "create-aeroworks",
+      "upgrade-items",
+      "terrain-diffusion",
+      "serene-shrubbery-fabric",
+      "modern-apple-cows",
+      "obsessed",
+      "railways-untold",
+      "kaleidoscopetavern",
+      "kaleidoscope-deco",
+      "earth-and-water",
+      "powerborne-heroes",
+      "lets-do-hearth-timber"
     ]
   }
 }
