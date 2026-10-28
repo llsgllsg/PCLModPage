@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-13": [
-      "block-pack",
-      "extractrooms",
-      "sengokujidaimod",
-      "yori3os-grappling-hooks",
-      "immersive-gateways",
-      "playereactions",
-      "windy",
-      "two-dimensional-reloaded",
-      "vista_tv",
-      "custom-glint",
-      "wilder-flowers",
-      "big-water"
-    ],
     "2026-10-14": [
       "wathe",
       "wavify",
@@ -209,6 +195,20 @@
       "earth-and-water",
       "powerborne-heroes",
       "lets-do-hearth-timber"
+    ],
+    "2026-10-28": [
+      "aitk",
+      "re-animal",
+      "sengokujidaimod",
+      "vista_tv",
+      "big-water",
+      "vercte-satchels",
+      "3d-maps",
+      "world-alive",
+      "verity-je-official",
+      "nature-x-plus",
+      "bbs-fs",
+      "create-propulsion-simulated"
     ]
   }
 }
