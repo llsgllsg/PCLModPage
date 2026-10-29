@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-14": [
-      "wathe",
-      "wavify",
-      "dap-ur-homies",
-      "wonderoussea",
-      "inventory-interactions",
-      "kiss-a-friend",
-      "aeroscapes-islands",
-      "not-enough-animations-emf-compat",
-      "subnautica-after-zero",
-      "millager",
-      "elytra-contrails-mod",
-      "dynamic-life-free-version"
-    ],
     "2026-10-15": [
       "unstable-generation",
       "tas",
@@ -209,6 +195,20 @@
       "nature-x-plus",
       "bbs-fs",
       "create-propulsion-simulated"
+    ],
+    "2026-10-29": [
+      "create-coasters-simulated",
+      "book-of-dragons",
+      "playereactions",
+      "immersive-gateways",
+      "dap-ur-homies",
+      "wathe",
+      "elytra-contrails-mod",
+      "animal-garden-fennec-fox",
+      "two-dimensional-reloaded",
+      "sb-enchantment-effects",
+      "betterend-neoforge",
+      "aeroscapes-islands"
     ]
   }
 }
