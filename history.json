@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-15": [
-      "unstable-generation",
-      "tas",
-      "sable-create-aeronautics-collision-damage",
-      "custom-glow-enchantment-outline",
-      "epic-structures-igloo",
-      "street-art",
-      "aperture-innovations",
-      "mebahels-creatures-draugr",
-      "shadow-drop",
-      "grim-kingdoms-lost-structures-ruins",
-      "create-cosmonatics",
-      "soulbound-turnbattle"
-    ],
     "2026-10-16": [
       "cult-of-azazel",
       "stupid-block-animations",
@@ -209,6 +195,20 @@
       "sb-enchantment-effects",
       "betterend-neoforge",
       "aeroscapes-islands"
+    ],
+    "2026-10-30": [
+      "soulbound-turnbattle",
+      "hellish-trials",
+      "custom-glow-enchantment-outline",
+      "tellus",
+      "wonderoussea",
+      "simple-blood",
+      "dynamic-life-free-version",
+      "kiss-a-friend",
+      "create-cosmonatics",
+      "mbs-moogs-bountiful-structures",
+      "epic-structures-igloo",
+      "millager"
     ]
   }
 }
