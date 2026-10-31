@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-16": [
-      "cult-of-azazel",
-      "stupid-block-animations",
-      "better-combat-particle",
-      "epic-structures-jungle-temples",
-      "tiny-takeover-x-punchy",
-      "untitledlog",
-      "accents",
-      "minepathy",
-      "sunken-spires",
-      "alpha-below",
-      "crop-critters",
-      "f-tech-equipment"
-    ],
     "2026-10-17": [
       "overpacked",
       "spawn-spires",
@@ -209,6 +195,20 @@
       "mbs-moogs-bountiful-structures",
       "epic-structures-igloo",
       "millager"
+    ],
+    "2026-10-31": [
+      "punchymoves",
+      "crop-critters",
+      "wilder-flowers",
+      "shadeandsaturation",
+      "untitledlog",
+      "street-art",
+      "tiny-takeover-x-punchy",
+      "not-enough-animations-emf-compat",
+      "wavify",
+      "modest-magic",
+      "yori3os-grappling-hooks",
+      "grim-kingdoms-lost-structures-ruins"
     ]
   }
 }
