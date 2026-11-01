@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-17": [
-      "overpacked",
-      "spawn-spires",
-      "create-bits-n-bobs",
-      "roaring",
-      "puddles-floods",
-      "vs-hose-connectors",
-      "swinging-lanterns",
-      "a-breach-happened",
-      "natural-waters",
-      "borninchaos",
-      "scavenger-mod",
-      "grassier-grass"
-    ],
     "2026-10-18": [
       "fangs-n-claws",
       "cool-rain-reforged",
@@ -209,6 +195,20 @@
       "modest-magic",
       "yori3os-grappling-hooks",
       "grim-kingdoms-lost-structures-ruins"
+    ],
+    "2026-11-01": [
+      "spawn-spires",
+      "smooth-loading-screen",
+      "grassier-grass",
+      "better-fishing-system",
+      "penchant",
+      "swinging-lanterns",
+      "vs-hose-connectors",
+      "extractrooms",
+      "apotheosis",
+      "borninchaos",
+      "f-tech-equipment",
+      "overpacked"
     ]
   }
 }
