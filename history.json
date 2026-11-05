@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-21": [
-      "inventory-pets",
-      "epic-structures-dungeons",
-      "room-for-two",
-      "dannys-aot",
-      "immersive-horse-riding",
-      "ly-fishing-expansion",
-      "horrets-extended-megas-cobblemon",
-      "structures-mod",
-      "viltrumite",
-      "legendary-gemstones",
-      "barnyard-buddies",
-      "disabilities"
-    ],
     "2026-10-22": [
       "marvelous-menagerie-paradoxical",
       "animal-garden-common-raven",
@@ -209,6 +195,20 @@
       "mannequins",
       "sky-archipelago",
       "aeronautics-winds-and-weather"
+    ],
+    "2026-11-05": [
+      "disabilities",
+      "legendary-gemstones",
+      "kaleidoscope-cookery-refabricated",
+      "naturalist-biomes-java",
+      "lets-do-lilis-pottery",
+      "accents",
+      "viltrumite",
+      "creatures-of-petrichor",
+      "dannys-aot",
+      "enchantments-expansion",
+      "minepathy",
+      "structures-mod"
     ]
   }
 }
