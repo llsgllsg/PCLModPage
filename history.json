@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-22": [
-      "marvelous-menagerie-paradoxical",
-      "animal-garden-common-raven",
-      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
-      "the-five-nights-at-freddys-mod",
-      "pmweathercm1",
-      "cryptic-foes",
-      "symbiote-a-bonding-experience",
-      "girlfriend",
-      "vb-compat",
-      "alexs-caves-unofficial-port",
-      "horror-element-mod",
-      "prisma-craft"
-    ],
     "2026-10-23": [
       "create-warnautics",
       "antarchy",
@@ -209,6 +195,20 @@
       "enchantments-expansion",
       "minepathy",
       "structures-mod"
+    ],
+    "2026-11-06": [
+      "origins-legacy",
+      "paintersinc",
+      "random-crafts",
+      "evil-hunter",
+      "ly-fishing-expansion",
+      "sable-create-aeronautics-collision-damage",
+      "create-tracks-plus",
+      "linear-bearing",
+      "cryptic-foes",
+      "epic-structures-dungeons",
+      "prisma-craft",
+      "lets-do-alpine-whispers"
     ]
   }
 }
