@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-23": [
-      "create-warnautics",
-      "antarchy",
-      "combateffects",
-      "animal-garden-sea-otter",
-      "lighterend",
-      "atmospheric-fauna",
-      "alexs-mobs-1.21.1",
-      "classiccombined",
-      "cobbledgacha",
-      "hazen-n-stuff",
-      "ziplines-rezipped",
-      "abyssal-decor"
-    ],
     "2026-10-24": [
       "mielons-the-sift",
       "streams-reflowing",
@@ -209,6 +195,20 @@
       "epic-structures-dungeons",
       "prisma-craft",
       "lets-do-alpine-whispers"
+    ],
+    "2026-11-07": [
+      "royalvariations",
+      "a-breach-happened",
+      "create-warnautics",
+      "vb-compat",
+      "classiccombined",
+      "beyond_the_skybox",
+      "antarchy",
+      "the-five-nights-at-freddys-mod",
+      "immersive-horse-riding",
+      "ziplines-rezipped",
+      "pmweathercm1",
+      "room-for-two"
     ]
   }
 }
