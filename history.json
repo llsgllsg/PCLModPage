@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-24": [
-      "mielons-the-sift",
-      "streams-reflowing",
-      "punchy-fpa",
-      "the-roads-more-travelled",
-      "spider-overhaul",
-      "koopas-critters",
-      "fwa",
-      "the-silver-age",
-      "matcha-flavoured",
-      "backported-spears",
-      "navas-zamega",
-      "dungeonsreborn"
-    ],
     "2026-10-25": [
       "shine",
       "bathymetry",
@@ -209,6 +195,20 @@
       "ziplines-rezipped",
       "pmweathercm1",
       "room-for-two"
+    ],
+    "2026-11-08": [
+      "unstable-generation",
+      "matcha-flavoured",
+      "nether-descent",
+      "fwa",
+      "the-roads-more-travelled",
+      "fangs-n-claws",
+      "streams-reflowing",
+      "mielons-the-sift",
+      "dynamic-waters-realistic-flowing-rivers",
+      "aures-dragon-survival",
+      "epic-structures-jungle-temples",
+      "atmospheric-fauna"
     ]
   }
 }
