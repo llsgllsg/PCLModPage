@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-25": [
-      "shine",
-      "bathymetry",
-      "aeronautics-propeller-blur",
-      "create-aeronautics",
-      "create-electro-energetics",
-      "portalmod",
-      "vanilla-progression-chaos-cubed-edition",
-      "ecliptic-seasons",
-      "lukis-strongholds",
-      "minecraft-but-chunks-are-random",
-      "btwce",
-      "electroblobs-wizardry-redux"
-    ],
     "2026-10-26": [
       "creature-feature",
       "dungeons-and-taverns-mineshaft-overhaul",
@@ -209,6 +195,20 @@
       "aures-dragon-survival",
       "epic-structures-jungle-temples",
       "atmospheric-fauna"
+    ],
+    "2026-11-09": [
+      "shine",
+      "ecliptic-seasons",
+      "create-aeronautics",
+      "the-awakening",
+      "hazen-n-stuff",
+      "portalmod",
+      "backported-spears",
+      "collapsing-caves",
+      "twixxels-stalker-port",
+      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
+      "barnyard-buddies",
+      "bathymetry"
     ]
   }
 }
