@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-26": [
-      "creature-feature",
-      "dungeons-and-taverns-mineshaft-overhaul",
-      "outln.frombelowland",
-      "cirrus",
-      "wonderland-jar",
-      "create-grappling-hooks",
-      "dreamshift",
-      "lukis-woodland-mansions",
-      "valleys",
-      "one-dimension",
-      "aures-farmers-structures",
-      "legendary-survival-overhaul"
-    ],
     "2026-10-27": [
       "create-aeroworks",
       "upgrade-items",
@@ -209,6 +195,20 @@
       "grim-kingdoms-lost-structures-ruins-vanilla-edition",
       "barnyard-buddies",
       "bathymetry"
+    ],
+    "2026-11-10": [
+      "dreamshift",
+      "cirrus",
+      "horrets-extended-megas-cobblemon",
+      "valleys",
+      "create-electro-energetics",
+      "impact-frames-pvp",
+      "lukis-woodland-mansions",
+      "the-silver-age",
+      "outln.frombelowland",
+      "unnamed-monster",
+      "wonderland-jar",
+      "stupid-block-animations"
     ]
   }
 }
