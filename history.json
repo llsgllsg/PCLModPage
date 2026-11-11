@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-27": [
-      "create-aeroworks",
-      "upgrade-items",
-      "terrain-diffusion",
-      "serene-shrubbery-fabric",
-      "modern-apple-cows",
-      "obsessed",
-      "railways-untold",
-      "kaleidoscopetavern",
-      "kaleidoscope-deco",
-      "earth-and-water",
-      "powerborne-heroes",
-      "lets-do-hearth-timber"
-    ],
     "2026-10-28": [
       "aitk",
       "re-animal",
@@ -209,6 +195,20 @@
       "unnamed-monster",
       "wonderland-jar",
       "stupid-block-animations"
+    ],
+    "2026-11-11": [
+      "marvelous-menagerie-paradoxical",
+      "terrain-diffusion",
+      "abyssal-decor",
+      "vanilla-progression-chaos-cubed-edition",
+      "kaleidoscopetavern",
+      "upgrade-items",
+      "alexs-mobs-1.21.1",
+      "earth-and-water",
+      "aures-farmers-structures",
+      "cobbledgacha",
+      "creature-feature",
+      "lets-do-hearth-timber"
     ]
   }
 }
