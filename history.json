@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-29": [
-      "create-coasters-simulated",
-      "book-of-dragons",
-      "playereactions",
-      "immersive-gateways",
-      "dap-ur-homies",
-      "wathe",
-      "elytra-contrails-mod",
-      "animal-garden-fennec-fox",
-      "two-dimensional-reloaded",
-      "sb-enchantment-effects",
-      "betterend-neoforge",
-      "aeroscapes-islands"
-    ],
     "2026-10-30": [
       "soulbound-turnbattle",
       "hellish-trials",
@@ -209,6 +195,20 @@
       "legendary-survival-overhaul",
       "vercte-satchels",
       "nyoldarria"
+    ],
+    "2026-11-13": [
+      "elytra-contrails-mod",
+      "wathe",
+      "hedges-bestiary",
+      "create-coasters-simulated",
+      "dap-ur-homies",
+      "powerborne-heroes",
+      "big-water",
+      "sengokujidaimod",
+      "book-of-dragons",
+      "immersive-pillagers",
+      "serene-shrubbery-fabric",
+      "world-alive"
     ]
   }
 }
