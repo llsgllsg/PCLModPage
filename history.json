@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-30": [
-      "soulbound-turnbattle",
-      "hellish-trials",
-      "custom-glow-enchantment-outline",
-      "tellus",
-      "wonderoussea",
-      "simple-blood",
-      "dynamic-life-free-version",
-      "kiss-a-friend",
-      "create-cosmonatics",
-      "mbs-moogs-bountiful-structures",
-      "epic-structures-igloo",
-      "millager"
-    ],
     "2026-10-31": [
       "punchymoves",
       "crop-critters",
@@ -209,6 +195,20 @@
       "immersive-pillagers",
       "serene-shrubbery-fabric",
       "world-alive"
+    ],
+    "2026-11-14": [
+      "soulbound-turnbattle",
+      "kiss-a-friend",
+      "epic-structures-igloo",
+      "immersive-gateways",
+      "millager",
+      "item-particles",
+      "aeronautics-propeller-blur",
+      "railways-untold",
+      "mbs-moogs-bountiful-structures",
+      "tellus",
+      "hellish-trials",
+      "playereactions"
     ]
   }
 }
