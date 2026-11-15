@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-10-31": [
-      "punchymoves",
-      "crop-critters",
-      "wilder-flowers",
-      "shadeandsaturation",
-      "untitledlog",
-      "street-art",
-      "tiny-takeover-x-punchy",
-      "not-enough-animations-emf-compat",
-      "wavify",
-      "modest-magic",
-      "yori3os-grappling-hooks",
-      "grim-kingdoms-lost-structures-ruins"
-    ],
     "2026-11-01": [
       "spawn-spires",
       "smooth-loading-screen",
@@ -209,6 +195,20 @@
       "tellus",
       "hellish-trials",
       "playereactions"
+    ],
+    "2026-11-15": [
+      "punchymoves",
+      "moogs-glow-up",
+      "tiny-takeover-x-punchy",
+      "capitals-a-monarchy-mod-for-mca-reborn",
+      "re-animal",
+      "kaleidoscope-deco",
+      "mmr-moogs-mineshafts-reimagined",
+      "wilder-flowers",
+      "grim-kingdoms-lost-structures-ruins",
+      "betternether-neoforge",
+      "3d-maps",
+      "sb-enchantment-effects"
     ]
   }
 }
