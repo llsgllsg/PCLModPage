@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-01": [
-      "spawn-spires",
-      "smooth-loading-screen",
-      "grassier-grass",
-      "better-fishing-system",
-      "penchant",
-      "swinging-lanterns",
-      "vs-hose-connectors",
-      "extractrooms",
-      "apotheosis",
-      "borninchaos",
-      "f-tech-equipment",
-      "overpacked"
-    ],
     "2026-11-02": [
       "block-pack",
       "sizeable-foliage",
@@ -209,6 +195,20 @@
       "betternether-neoforge",
       "3d-maps",
       "sb-enchantment-effects"
+    ],
+    "2026-11-16": [
+      "smooth-loading-screen",
+      "spawn-spires",
+      "grassier-grass",
+      "crop-critters",
+      "borninchaos",
+      "alexs-caves-unofficial-port",
+      "custom-glow-enchantment-outline",
+      "symbiote-a-bonding-experience",
+      "swinging-lanterns",
+      "penchant",
+      "dynamic-life-free-version",
+      "electroblobs-wizardry-redux"
     ]
   }
 }
