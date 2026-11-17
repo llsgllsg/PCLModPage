@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-02": [
-      "block-pack",
-      "sizeable-foliage",
-      "cool-rain-reforged",
-      "anchoroptimizer",
-      "inventory-interactions",
-      "vanilla-weather-plus",
-      "stormies-spiders",
-      "create-bits-n-bobs",
-      "custom-glint",
-      "unusual-prehistory-2",
-      "where-winds-blow",
-      "villager-retaliation"
-    ],
     "2026-11-03": [
       "olafs-relatively-placed-blocks",
       "sable-cool-rain",
@@ -209,6 +195,20 @@
       "penchant",
       "dynamic-life-free-version",
       "electroblobs-wizardry-redux"
+    ],
+    "2026-11-17": [
+      "vanilla-weather-plus",
+      "inventory-interactions",
+      "archies-dinosaurs",
+      "unusual-prehistory-2",
+      "villager-retaliation",
+      "f-tech-equipment",
+      "euphorics",
+      "dungeons-and-taverns-mineshaft-overhaul",
+      "better-fishing-system",
+      "block-pack",
+      "create-cosmonatics",
+      "stormies-spiders"
     ]
   }
 }
