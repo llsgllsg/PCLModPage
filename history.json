@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-05": [
-      "disabilities",
-      "legendary-gemstones",
-      "kaleidoscope-cookery-refabricated",
-      "naturalist-biomes-java",
-      "lets-do-lilis-pottery",
-      "accents",
-      "viltrumite",
-      "creatures-of-petrichor",
-      "dannys-aot",
-      "enchantments-expansion",
-      "minepathy",
-      "structures-mod"
-    ],
     "2026-11-06": [
       "origins-legacy",
       "paintersinc",
@@ -209,6 +195,20 @@
       "sizeable-foliage",
       "nature-x-plus",
       "two-dimensional-reloaded"
+    ],
+    "2026-11-20": [
+      "dannys-aot",
+      "structures-mod",
+      "accents",
+      "aperture-innovations",
+      "infernal-expansion-redux",
+      "not-enough-animations-emf-compat",
+      "disabilities",
+      "mannequins",
+      "kaleidoscope-cookery-refabricated",
+      "minepathy",
+      "tas",
+      "sky-archipelago"
     ]
   }
 }
