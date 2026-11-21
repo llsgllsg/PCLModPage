@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-06": [
-      "origins-legacy",
-      "paintersinc",
-      "random-crafts",
-      "evil-hunter",
-      "ly-fishing-expansion",
-      "sable-create-aeronautics-collision-damage",
-      "create-tracks-plus",
-      "linear-bearing",
-      "cryptic-foes",
-      "epic-structures-dungeons",
-      "prisma-craft",
-      "lets-do-alpine-whispers"
-    ],
     "2026-11-07": [
       "royalvariations",
       "a-breach-happened",
@@ -209,6 +195,20 @@
       "minepathy",
       "tas",
       "sky-archipelago"
+    ],
+    "2026-11-21": [
+      "create-deep-seas",
+      "cool-rain-reforged",
+      "warrior-cats-events",
+      "shadow-drop",
+      "bbs-fs",
+      "viltrumite",
+      "lets-do-lilis-pottery",
+      "sable-create-aeronautics-collision-damage",
+      "wavify",
+      "ly-fishing-expansion",
+      "epic-structures-dungeons",
+      "animal-garden-western-gorilla"
     ]
   }
 }
