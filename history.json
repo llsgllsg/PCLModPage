@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-07": [
-      "royalvariations",
-      "a-breach-happened",
-      "create-warnautics",
-      "vb-compat",
-      "classiccombined",
-      "beyond_the_skybox",
-      "antarchy",
-      "the-five-nights-at-freddys-mod",
-      "immersive-horse-riding",
-      "ziplines-rezipped",
-      "pmweathercm1",
-      "room-for-two"
-    ],
     "2026-11-08": [
       "unstable-generation",
       "matcha-flavoured",
@@ -209,6 +195,20 @@
       "ly-fishing-expansion",
       "epic-structures-dungeons",
       "animal-garden-western-gorilla"
+    ],
+    "2026-11-22": [
+      "antarchy",
+      "nethermore",
+      "cryptic-foes",
+      "handson-delight",
+      "naturalist-biomes-java",
+      "enchantments-expansion",
+      "aeroscapes-islands",
+      "classiccombined",
+      "creatures-of-petrichor",
+      "paintersinc",
+      "aeronautics-winds-and-weather",
+      "create-tracks-plus"
     ]
   }
 }
