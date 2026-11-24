@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-09": [
-      "shine",
-      "ecliptic-seasons",
-      "create-aeronautics",
-      "the-awakening",
-      "hazen-n-stuff",
-      "portalmod",
-      "backported-spears",
-      "collapsing-caves",
-      "twixxels-stalker-port",
-      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
-      "barnyard-buddies",
-      "bathymetry"
-    ],
     "2026-11-10": [
       "dreamshift",
       "cirrus",
@@ -209,6 +195,20 @@
       "ziplines-rezipped",
       "dynamic-waters-realistic-flowing-rivers",
       "gouge"
+    ],
+    "2026-11-24": [
+      "shine",
+      "mielons-the-sift",
+      "create-aeronautics",
+      "unstable-generation",
+      "grim-kingdoms-lost-structures-ruins-vanilla-edition",
+      "untitledlog",
+      "paper_kite_manor",
+      "collapsing-caves",
+      "fangs-n-claws",
+      "monster-expansion",
+      "big-lost-city",
+      "immersive-horse-riding"
     ]
   }
 }
