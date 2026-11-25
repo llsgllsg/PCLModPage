@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-10": [
-      "dreamshift",
-      "cirrus",
-      "horrets-extended-megas-cobblemon",
-      "valleys",
-      "create-electro-energetics",
-      "impact-frames-pvp",
-      "lukis-woodland-mansions",
-      "the-silver-age",
-      "outln.frombelowland",
-      "unnamed-monster",
-      "wonderland-jar",
-      "stupid-block-animations"
-    ],
     "2026-11-11": [
       "marvelous-menagerie-paradoxical",
       "terrain-diffusion",
@@ -209,6 +195,20 @@
       "monster-expansion",
       "big-lost-city",
       "immersive-horse-riding"
+    ],
+    "2026-11-25": [
+      "cobblemon-horizon-mons",
+      "cirrus",
+      "koopas-critters",
+      "wonderland-jar",
+      "outln.frombelowland",
+      "create-warnautics",
+      "impact-frames-pvp",
+      "blocks-abound",
+      "room-for-two",
+      "royalvariations",
+      "aures-dragon-survival",
+      "cult-of-azazel"
     ]
   }
 }
