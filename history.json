@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-11": [
-      "marvelous-menagerie-paradoxical",
-      "terrain-diffusion",
-      "abyssal-decor",
-      "vanilla-progression-chaos-cubed-edition",
-      "kaleidoscopetavern",
-      "upgrade-items",
-      "alexs-mobs-1.21.1",
-      "earth-and-water",
-      "aures-farmers-structures",
-      "cobbledgacha",
-      "creature-feature",
-      "lets-do-hearth-timber"
-    ],
     "2026-11-12": [
       "spider-overhaul",
       "btwce",
@@ -209,6 +195,20 @@
       "royalvariations",
       "aures-dragon-survival",
       "cult-of-azazel"
+    ],
+    "2026-11-26": [
+      "random-crafts",
+      "creature-feature",
+      "terrain-diffusion",
+      "linear-bearing",
+      "portalmod",
+      "earth-and-water",
+      "bathymetry",
+      "ecliptic-seasons",
+      "vanilla-progression-chaos-cubed-edition",
+      "custom-glint",
+      "horrets-extended-megas-cobblemon",
+      "upgrade-items"
     ]
   }
 }
