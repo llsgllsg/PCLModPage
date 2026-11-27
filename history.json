@@ -1,19 +1,5 @@
 {
   "history": {
-    "2026-11-12": [
-      "spider-overhaul",
-      "btwce",
-      "create-aeroworks",
-      "create-propulsion-simulated",
-      "minecraft-but-chunks-are-random",
-      "aitk",
-      "verity-je-official",
-      "create-grappling-hooks",
-      "modern-apple-cows",
-      "legendary-survival-overhaul",
-      "vercte-satchels",
-      "nyoldarria"
-    ],
     "2026-11-13": [
       "elytra-contrails-mod",
       "wathe",
@@ -209,6 +195,20 @@
       "custom-glint",
       "horrets-extended-megas-cobblemon",
       "upgrade-items"
+    ],
+    "2026-11-27": [
+      "dreamshift",
+      "verity-je-official",
+      "spider-overhaul",
+      "create-electro-energetics",
+      "legendary-survival-overhaul",
+      "subterranean-wilderness-revival",
+      "kaleidoscopetavern",
+      "mebahels-creatures-draugr",
+      "create-aeroworks",
+      "pmweathercm1",
+      "vercte-satchels",
+      "overpacked"
     ]
   }
 }
